@@ -1,0 +1,67 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "core-sample",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        },
+        {
+            "path": "force-app\\main",
+            "package": "core_sample",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "04t5e000000hKd3AAE"
+                },
+                {
+                    "package": "04t5e000000hKi4AAE"
+                }
+            ],
+            "default": false
+        },
+        {
+            "path": "force-app",
+            "package": "core-sample",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "04t5e000000hKd3AAE"
+                },
+                {
+                    "package": "04t5e000000hKi4AAE"
+                }
+            ],
+            "default": false
+        },
+        {
+            "path": "force-app",
+            "package": "core-sample3",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "04t5e000000hKd3AAE"
+                },
+                {
+                    "package": "04t5e000000hKi4AAE"
+                }
+            ],
+            "default": false
+        }
+    ],
+    "name": "core_sample",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "51.0",
+    "packageAliases": {
+        "core_sample": "0Ho5e000000k9kWCAQ",
+        "core_sample@0.1.0-6": "04t5e000000hMGoAAM",
+        "core-sample": "0Ho5e000000k9l0CAA",
+        "core-sample3": "0Ho5e000000k9lACAQ",
+        "core-sample3@0.1.0-1": "04t5e000000hMXUAA2"
+    }
+}
